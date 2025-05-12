@@ -1,0 +1,34 @@
+What is Phishing?
+Phishing is a social engineering attack designed to deceive individuals into revealing sensitive information like usernames, passwords, and financial details.
+It is often the first step in a larger attack strategy,to gain initial access to targeted systems.
+
+Step 1: Create a GitHub Account ======>
+Sign up for a GitHub account if you don't already have one.
+Go to GitHub and follow the prompts to create an account.
+
+Step 2: Create a New Repository ======>
+Once logged into GitHub, click on the "New Repository" button.
+Name the repository (e.g., xyz-org-demo).
+Choose whether the repository is public or private (for educational purposes, public can be beneficial to show transparency).
+Initialize the repository with a README file.
+
+Step 3: Setting Up GitHub Pages ======>
+Navigate to the repository settings.
+Under the GitHub Pages section, change the source branch from "None" to "main".
+You can use a custom domain, or for testing purposes, use a free domain through services like (https://www.noip.com)
+Create an account with No-IP and set up a free domain.
+
+Point this domain to the public IPv4 address of your GitHub repository (refer to GitHub’s custom domain documentation)
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site.
+
+3. Building a Phishing Website (for Educational Purposes Only) ======>
+Important: In this section, focus on demonstrating the setup of a phishing page to understand not to encourage any harmful actions.
+Step 4: Design the Phishing Page ======>
+Create an HTML page that mimics a legitimate service (e.g., a fake login page for a popular website).
+Use social engineering techniques to make the page look realistic. This can include:
+Copying the design of the target website.
+Using convincing language to lure users into entering sensitive information.
+
+Step 5: Deploy the Page via GitHub Pages ======>
+Once the page is designed, push the content to your GitHub repository.
+The phishing page will be available via your custom domain or GitHub’s default URL (e.g., yourusername.github.io/repository-name).
